@@ -1,10 +1,9 @@
 import './Projects.css'
-import memory from '../assets/memory.png'
-import sfoodify from '../assets/sfoodify.png'
-import recipe from '../assets/recipe.png'
-import webscraper from '../assets/webscraper.png'
+import mentor from '../assets/mentor.png'
+import funny from '../assets/funny.png'
+import geotab from '../assets/geotab.png'
+import nbody from '../assets/nbody.gif'
 import { useEffect, useState } from 'react'
-
 
 export default function Projects() {
   const [showComponent, setShowComponent] = useState(false);
@@ -21,24 +20,24 @@ export default function Projects() {
     <div className={`project-section ${showComponent ? 'show' : ''}`}>
       <div class="grid-container">
         <div class="grid-item">
-          <h1>Sfoodify</h1>
-          <a href='https://github.com/rongc0723' target='blank'><img src={sfoodify} alt='sfoodify project'/></a>
-          <p>Utilized Spotify and Spooancular API to generate curated playlists and recipes for an authorized user</p>
+          <h1>MyGapMentor</h1>
+          <a href='https://mygapmentor.vercel.app/' target='blank'><img src={mentor} alt='generative ai website'/></a>
+          <p>Developed with React and Flask, aimed at assisting high school students in enhancing their extracurricular profiles through AI-generated, customized plans. These plans, based on students' input activities and preferences, leverage OpenAI's API to offer tailored suggestions for improvement, including internships, research projects, and hackathons, tailored to different high school levels.</p>
         </div>
         <div class="grid-item">
-          <h1>Memory Game</h1>
-          <a href='https://github.com/rongc0723' target='blank'><img src={memory} alt='memory-game project'/></a>
-          <p>Recreated the classic memory flip game where users flip cards at an attempt to match them</p>
+          <h1>FunnyGame</h1>
+          <a href='https://github.com/wjorgensen/funny-game' target='blank'><img src={funny} alt='generative ai game'/></a>
+          <p>Inspired by the online game Gartic Phone, it's a web-based game where players create prompts in a lobby, leading to AI-generated images that are passed around for humorous storytelling. Built Funny Game with Next.js for the front end, socket.io for connecting all of the clients together, and Open AI API to generate the images.</p>
         </div>
         <div class="grid-item">
-          <h1>Recipe Book</h1>
-          <a href='https://github.com/rongc0723' target='blank'><img src={recipe} alt='recipe book project'/></a>
-          <p>Webapp that allows an user to create recipes and search for recipes on a local json database</p>
+          <h1>GeoTab</h1>
+          <a href='https://chromewebstore.google.com/detail/geotab/ifcklilffcpllkallhdaanealofknahe?utm_source=ext_sidebar&hl=en-US' target='blank'><img src={geotab} alt='chrome extension game'/></a>
+          <p>Designed and launched a Chrome extension game for geography education. It invites users to identify flags, capitals, and their locations of countries worldwide, effectively blending leisure with the enrichment of geographical knowledge.</p>
         </div>
         <div class="grid-item">
-          <h1>Marciano Web Scraper</h1>
-          <a href='https://github.com/rongc0723' target='blank'><img src={webscraper} alt='webscraper project'/></a>
-          <p>Python program that allows students to quickly get menu items and important nutrition facts</p>
+          <h1>N-Body Simulation</h1>
+          <a href='https://github.com/zhandolia/nbody' target='blank'><img src={nbody} alt='solary system simulation'/></a>
+          <p>Enhanced the solar system simulation using Java, blending background imagery, studio-quality sound, and prototypical planet models with mathematical precision.</p>
         </div>
       </div>
     </div>

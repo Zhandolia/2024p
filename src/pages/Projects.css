@@ -33,7 +33,7 @@
 }
 .grid-item img{
     object-fit: cover;
-    width: 150px;
+    width: 400px;
     max-height: auto;
     border-radius: 10px;
 }
