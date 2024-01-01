@@ -5,10 +5,11 @@ import {
   faHtml5, 
   faReact, 
   faGit, 
-  faPhp,
+  faSwift,
   faCss3Alt,
-  faLinux,
+  faFigma,
   faJava,
+  faNode,
   faJsSquare, } from '@fortawesome/free-brands-svg-icons';
 import { useEffect, useState } from 'react';
 
@@ -42,14 +43,15 @@ export default function About() {
           <h1>Skills</h1>
           <ul>
             <li><FontAwesomeIcon icon={faReact} beat size='2xl'/></li>
-            <li><FontAwesomeIcon icon={faHtml5} beat size='2xl'/></li>
+            {/* <li><FontAwesomeIcon icon={faHtml5} beat size='2xl'/></li>
             <li><FontAwesomeIcon icon={faCss3Alt} beat size="2xl"/></li>
-            <li><FontAwesomeIcon icon={faJsSquare} beat size="2xl"/></li>
+            <li><FontAwesomeIcon icon={faJsSquare} beat size="2xl"/></li> */}
             <li><FontAwesomeIcon icon={faPython} beat size='2xl'/></li>
             <li><FontAwesomeIcon icon={faJava} beat size="2xl" /></li>
             <li><FontAwesomeIcon icon={faGit} beat size="2xl" /></li>
-            <li><FontAwesomeIcon icon={faPhp} beat size="2xl" /></li>
-            <li><FontAwesomeIcon icon={faLinux} beat size="2xl" /></li>
+            <li><FontAwesomeIcon icon={faSwift} beat size="2xl" /></li>
+            <li><FontAwesomeIcon icon={faFigma} beat size="2xl" /></li>
+            <li><FontAwesomeIcon icon={faNode} beat size="2xl" /></li>
           </ul>
         </div>
       </div>

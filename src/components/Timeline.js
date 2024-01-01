@@ -30,7 +30,7 @@ const experiences = [
         description: "Engineered a comprehensive and user-centric website from the ground up, employing WordPress coupled with advanced JavaScript, HTML, and CSS to create a dynamic and responsive online presence."
     },
     {
-        date: "May 2023 - Aug 2023",
+        date: "Dec 2020 - Mar 2021",
         company: "Gradcompleks Architectural",
         location: "(Almaty, Kazakhstan)",
         position: "3D Design Intern",
