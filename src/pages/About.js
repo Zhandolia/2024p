@@ -9,7 +9,7 @@ import {
   faCss3Alt,
   faFigma,
   faJava,
-  faNode,
+  // faNode,
   faJsSquare, } from '@fortawesome/free-brands-svg-icons';
 import { useEffect, useState } from 'react';
 
