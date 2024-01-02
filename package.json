@@ -1,6 +1,6 @@
 {
-  "homepage": "https://zhandolia.github.io/2024p",
-  "name": "react-portfolio",
+  "homepage": "http://zhanbrown.vercel.app",
+  "name": "2024p",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
