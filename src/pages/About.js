@@ -9,7 +9,6 @@ import {
   faCss3Alt,
   faFigma,
   faJava,
-  // faNode,
   faJsSquare, } from '@fortawesome/free-brands-svg-icons';
 import { useEffect, useState } from 'react';
 
@@ -50,7 +49,6 @@ export default function About() {
             <li><FontAwesomeIcon icon={faJava} beat size="2xl" /></li>
             <li><FontAwesomeIcon icon={faSwift} beat size="2xl" /></li>
             <li><FontAwesomeIcon icon={faGit} beat size="2xl" /></li>
-            {/* <li><FontAwesomeIcon icon={faNode} beat size="2xl" /></li> */}
             <li><FontAwesomeIcon icon={faFigma} beat size="2xl" /></li>
           </ul>
         </div>
