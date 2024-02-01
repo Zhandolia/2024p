@@ -30,10 +30,10 @@ export default function About() {
           <h1>About Me</h1>
           <p>
           Hailing from Kazakhstan, Central Asia, I'm a Computer Science sophomore at Boston University, 
-          fluent in Kazakh, Russian, and English, with additional skills in Turkish and Arabic. 
+          fluent in Kazakh, Russian, and English, with additional Turkish, Kyrgyz, and Arabic skills. 
           My tech journey began with high school robotics and was amplified at 80edays, Germany, 
           where I played a pivotal role in the ChargeHotels iOS application, both in development and UI design. 
-          As the founder of MyGapMentor, I crafted a platform that empowers gap year students using OpenAI, 
+          As the founder of MyGapMentor, I crafted a platform that empowers gap-year students using OpenAI, 
           a project that secured significant funding and recognition. I'm eager to connect with professionals 
           who share my passion for innovation and envision a transformative tech future.
           </p>
