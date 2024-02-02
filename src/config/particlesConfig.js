@@ -1,4 +1,3 @@
-
 const particlesConfig = {
           background: {
             color: {
