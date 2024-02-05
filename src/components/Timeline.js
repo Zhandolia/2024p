@@ -24,7 +24,7 @@ const experiences = [
     {
         date: "Aug 2020 - Dec 2021",
         company: "Global Health Research Center of Central Asia",
-        location: "(New York, NY)",
+        location: "(Almaty, Kazakhstan)",
         position: "Full Stack Web Development Intern",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
         description: "Engineered a comprehensive and user-centric website from the ground up, employing WordPress coupled with advanced JavaScript, HTML, and CSS to create a dynamic and responsive online presence."

@@ -1,4 +1,5 @@
 import './Projects.css'
+import oqiga from '../assets/oqiga.png'
 import mentor from '../assets/mentor.png'
 import funny from '../assets/funny.png'
 import geotab from '../assets/geotab.png'
@@ -19,6 +20,11 @@ export default function Projects() {
   return (
     <div className={`project-section ${showComponent ? 'show' : ''}`}>
       <div class="grid-container">
+      <div class="grid-item">
+          <h1>OQIGA.AI</h1>
+          <a href='https://oqiga-ai.vercel.app/' target='blank'><img src={oqiga} alt='generative ai website'/></a>
+          <p>Engineered a pioneering educational platform using React.js for frontend and Flask for backend, featuring interactive storytelling with parental voice integration achieved through IPython and Google Colab with Jupyter Notebook. Achieved second place at the MakeHarvard 2024 hackathon, demonstrating the project’s innovation and impact in educational technology, and garnering significant interest and acclaim.</p>
+        </div>
         <div class="grid-item">
           <h1>MyGapMentor</h1>
           <a href='https://mygapmentor.vercel.app/' target='blank'><img src={mentor} alt='generative ai website'/></a>
