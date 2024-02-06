@@ -8,7 +8,7 @@ const experiences = [
     {
         date: "Apr 2023 - Present",
         company: "80edays",
-        location: "(Remote)",
+        location: "(Boston, MA)",
         position: "iOS Development Intern",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
         description: "Led the development of a feature-rich iOS application for a major electric vehicle rally event, leveraging Swift and Figma to create a robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver a seamless user experience."
@@ -16,7 +16,7 @@ const experiences = [
     {
         date: "Jan 2023 - Mar 2023",
         company: "80edays",
-        location: "(Remote)",
+        location: "(Boston, MA)",
         position: "Software Engineering Intern",
         icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
         description: "Utilized Python and Django to efficiently process and manage data, resulting in a more robust and scalable backend for the EcoRoute web application. This enhancement facilitated smoother user interactions and improved overall app performance."
