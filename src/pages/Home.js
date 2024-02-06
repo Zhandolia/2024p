@@ -1,5 +1,5 @@
 import './Home.css'
-import img from '../assets/photo.jpg'
+import img from '../assets/zab.jpg'
 import Typewriter from 'typewriter-effect';
 import whoConfig from '../config/whoConfig'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -21,7 +21,7 @@ export default function Home() {
   }, []);
   return (
     <div className={`content ${showComponent ? 'show' : ''}`}>
-      <img src={img} alt="baby"/>
+      <img src={img} alt="zab"/>
       <div className='info'>
         <h1>Hi, I'm Zhandos</h1>
         <h2>I'm a <span className='typewriter'><Typewriter options={whoConfig}/></span></h2>

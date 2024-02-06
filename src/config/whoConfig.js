@@ -6,5 +6,4 @@ const whoConfig = {
     loop: true,
 }
 
-
 export default whoConfig

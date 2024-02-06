@@ -32,7 +32,6 @@
     margin-bottom: 0;
 }
 
-
 .about ul {
     list-style-type: none;
     padding-left: 0;
@@ -44,7 +43,6 @@
     display: inline;
     margin: auto 10px;
 }
-
 
 @media screen and (max-width: 800px) {
     .about.show .about-wrapper{

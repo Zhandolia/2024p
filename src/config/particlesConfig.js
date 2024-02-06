@@ -1,12 +1,12 @@
 const particlesConfig = {
           background: {
             color: {
-              value: '#000000',
+              value: "#000000",
             },
           },
           fpsLimit: 120,
           interactivity: {
-            detectsOn: 'window',
+            detectsOn: "window",
             events: {
               onHover: {
                 enable: true,
@@ -21,18 +21,21 @@ const particlesConfig = {
             }
           },
           particles: {
+            // точки бекграунда
             color: {
-              value: "#F5EEF8",
+              value: "#8ADDEF",
             },
             links: {
               enable: true,
               width: 1,
               opacity: 1,
               distance: 150,
-              color: '#b1ddf1',
+              // линии бекграунда
+              color: "#FDEBD0",
               triangles: {
                 enable: true,
-                color: '#b1ddf1',
+                // переливание бекграунда
+                color: "#007FD7",
                 opacity: 0.2,
               },
             },
