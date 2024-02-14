@@ -7,19 +7,19 @@ import { faCode, faDatabase, faBug } from "@fortawesome/free-solid-svg-icons";
 const experiences = [
     {
         date: "Apr 2023 - Present",
-        company: "80edays",
+        company: "80edays - ChargeHotels",
         location: "(Boston, MA)",
         position: "iOS Development Intern",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "Led the development of a feature-rich iOS application for a major electric vehicle rally event, leveraging Swift and Figma to create a robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver a seamless user experience."
+        description: "Led development of feature-rich iOS application for major electric vehicle rally event, leveraging Swift and Figma to create robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver seamless user experience."
     },
     {
         date: "Jan 2023 - Mar 2023",
-        company: "80edays",
+        company: "80edays - Ecoroute",
         location: "(Boston, MA)",
         position: "Software Engineering Intern",
         icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
-        description: "Utilized Python and Django to efficiently process and manage data, resulting in a more robust and scalable backend for the EcoRoute web application. This enhancement facilitated smoother user interactions and improved overall app performance."
+        description: "Spearheaded integration of Google Maps API with Django and React, optimizing route planning for electric vehicles. Integration improved user experience by providing real-time data on charging stations and traffic conditions."
     },
     {
         date: "Aug 2020 - Dec 2021",
@@ -27,7 +27,7 @@ const experiences = [
         location: "(Almaty, Kazakhstan)",
         position: "Full Stack Web Development Intern",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "Engineered a comprehensive and user-centric website from the ground up, employing WordPress coupled with advanced JavaScript, HTML, and CSS to create a dynamic and responsive online presence."
+        description: "Engineered comprehensive and user-centric website from ground up, employing WordPress coupled with advanced JavaScript, HTML, and CSS to create dynamic and responsive online presence."
     },
     {
         date: "Dec 2020 - Mar 2021",
@@ -35,7 +35,7 @@ const experiences = [
         location: "(Almaty, Kazakhstan)",
         position: "3D Design Intern",
         icon: <FontAwesomeIcon icon={faBug} size="2x" />,
-        description: "Constructed a detailed 3D representation of the Aksai region in Kazakhstan, encompassing an expansive area of 5600km2, derived from satellite imagery and company-provided blueprints."
+        description: "Constructed a detailed 3D representation of Aksai region in Kazakhstan, encompassing an expansive area of 5600km2, derived from satellite imagery and company-provided blueprints."
     }
 ]
 
