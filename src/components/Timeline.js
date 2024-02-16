@@ -14,7 +14,7 @@ const experiences = [
         description: "Led development of feature-rich iOS application for major electric vehicle rally event, leveraging Swift and Figma to create robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver seamless user experience."
     },
     {
-        date: "Jan 2023 - Mar 2023",
+        date: "Feb 2023 - Apr 2023",
         company: "80edays - Ecoroute",
         location: "(Boston, MA)",
         position: "Software Engineering Intern",
