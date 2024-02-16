@@ -28,7 +28,7 @@ export default function Home() {
         <ul>
           <li> 🇰🇿 based in Kazakhstan, Central Asia</li>
           <li> 🎓 Student at Boston University</li>
-          <li> 📧 zhandos@bu.edu</li>
+          <li> 📧 <a href="mailto:zhandos@bu.edu" style={{ color: 'white', textDecoration: 'none' }}>zhandos@bu.edu</a></li>
         </ul>
         <div className='socials'>
           <a href={resume} target='_blank' rel='noreferrer'>
