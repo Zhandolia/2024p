@@ -10,11 +10,12 @@ import { useState, useEffect } from 'react';
 
 export default function Home() {
   const [showComponent, setShowComponent] = useState(false);
+  const [isImageLoaded, setIsImageLoaded] = useState(false);
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShowComponent(true);
-    }, 50);
-
+    // }, 50);
+    }, 2000);
     return () => {
       clearTimeout(timeoutId);
     };
