@@ -16,9 +16,7 @@ export default function Home() {
       setShowComponent(true);
     // }, 50);
     }, 2000);
-    return () => {
-      clearTimeout(timeoutId);
-    };
+    return () => clearTimeout(timeoutId);
   }, []);
   return (
     <div className={`content ${showComponent ? 'show' : ''}`}>
