@@ -15,7 +15,7 @@ const experiences = [
     },
     {
         date: "Feb 2023 - Apr 2023",
-        company: "80edays - Ecoroute",
+        company: "80edays - EcoRoute",
         location: "(Boston, MA)",
         position: "Software Engineering Intern",
         icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
