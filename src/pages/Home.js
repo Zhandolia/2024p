@@ -10,6 +10,7 @@ import { useState, useEffect } from 'react';
 
 export default function Home() {
   const [showComponent, setShowComponent] = useState(false);
+  const [imageLoaded, setImageLoaded] = useState(false);
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShowComponent(true);
@@ -21,7 +22,10 @@ export default function Home() {
   }, []);
   return (
     <div className={`content ${showComponent ? 'show' : ''}`}>
-      <img src={img} alt="zab"/>
+      {/* <img src={img} alt="zab"/>
+      <div className='info'> */}
+      {!imageLoaded && <div className="loader"></div>} {/* Show loader while image is loading */}
+      <img src={img} alt="zab" style={{display: imageLoaded ? 'block' : 'none'}} onLoad={() => setImageLoaded(true)}/>
       <div className='info'>
         <h1>Hi, I'm Zhandos</h1>
         <h2>I'm a <span className='typewriter'><Typewriter options={whoConfig}/></span></h2>
