@@ -6,20 +6,20 @@ import { faCode, faDatabase, faBug } from "@fortawesome/free-solid-svg-icons";
 
 const experiences = [
     {
-        date: "Apr 2023 - Present",
+        date: "Apr 2023 - Dec 2023",
         company: "80edays - ChargeHotels",
         location: "(Boston, MA)",
-        position: "iOS Development Intern",
+        position: "iOS Developmer Intern",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "Led development of feature-rich iOS application for major electric vehicle rally event, leveraging Swift and Figma to create robust and user-friendly interface. Focused on integrating real-time tracking, event updates, and participant engagement to deliver seamless user experience."
+        description: "Led development of feature-rich iOS application in designing and deploying for Europe's largest rally event, using SwiftUl, UlKit, and Combine for a robust and user-friendly interface."
     },
     {
         date: "Feb 2023 - Apr 2023",
-        company: "80edays - EcoRoute",
+        company: "80edays - ChargeHotels",
         location: "(Boston, MA)",
-        position: "Software Engineering Intern",
+        position: "Software Engineer Intern",
         icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
-        description: "Spearheaded integration of Google Maps API with Django and React, optimizing route planning for electric vehicles. Integration improved user experience by providing real-time data on charging stations and traffic conditions."
+        description: "Collaborated in planning and architecture design of high-profile mobile app for major European rally event, participating in technology stack decisions and initial API development using Node.js and Express."
     },
     {
         date: "Aug 2020 - Dec 2021",
