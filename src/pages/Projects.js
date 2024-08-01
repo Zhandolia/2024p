@@ -1,4 +1,5 @@
 import './Projects.css'
+import drivmi from '../assets/drivmi.png'
 import oqiga from '../assets/oqiga.png'
 import mentor from '../assets/mentor.png'
 import funny from '../assets/funny.png'
@@ -20,7 +21,16 @@ export default function Projects() {
   return (
     <div className={`project-section ${showComponent ? 'show' : ''}`}>
       <div class="grid-container">
-      <div class="grid-item">
+        <div class="grid-item">
+          <h1>DrivMi</h1>
+          <a target='blank'><img src={drivmi} alt='generative ai website'/></a>
+          <p>Spearheaded development of DrivMi, fully functional designated driver app, by leading cross-functional
+team through Agile methodologies, utilizing Firebase for secure and scalable database storage, and
+integrating Google Maps for real-time location tracking and route planning.
+Developed and optimized custom driver matching algorithm, improving response times by 40% and
+enhancing user satisfaction by matching drivers based on proximity, availability, and ratings.</p>
+        </div>
+        <div class="grid-item">
           <h1>OQIGA.AI</h1>
           <a href='https://oqiga-ai.vercel.app/' target='blank'><img src={oqiga} alt='generative ai website'/></a>
           <p>Engineered a pioneering educational platform using React.js for frontend and Flask for backend, featuring interactive storytelling with parental voice integration achieved through IPython and Google Colab with Jupyter Notebook. Achieved second place at the MakeHarvard 2024 hackathon, demonstrating the project’s innovation and impact in educational technology, and garnering significant interest and acclaim.</p>
