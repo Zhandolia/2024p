@@ -5,6 +5,7 @@ import mentor from '../assets/mentor.png'
 import funny from '../assets/funny.png'
 import geotab from '../assets/geotab.png'
 import nbody from '../assets/nbody.gif'
+import mscl from '../assets/mscl.gif'
 import { useEffect, useState } from 'react'
 
 export default function Projects() {
@@ -22,13 +23,18 @@ export default function Projects() {
     <div className={`project-section ${showComponent ? 'show' : ''}`}>
       <div class="grid-container">
         <div class="grid-item">
+          <h1>Muscle Intelligence</h1>
+          <a target='blank'><img src={mscl} alt='generative ai website'/></a>
+          <p>Fitness app that leverages computer vision and machine learning to analyze exercise form in real time, providing actionable feedback to optimize performance and prevent injuries. Built with TensorFlow, OpenCV, and React Native, the app delivers a seamless, cross-platform user experience by combining precise movement detection with intuitive design, ensuring users receive instant guidance for safe and effective workouts.</p>
+        </div>
+        <div class="grid-item">
           <h1>DrivMi</h1>
           <a target='blank'><img src={drivmi} alt='generative ai website'/></a>
-          <p>Spearheaded development of DrivMi, fully functional designated driver app, by leading cross-functional
-team through Agile methodologies, utilizing Firebase for secure and scalable database storage, and
-integrating Google Maps for real-time location tracking and route planning.
-Developed and optimized custom driver matching algorithm, improving response times by 40% and
-enhancing user satisfaction by matching drivers based on proximity, availability, and ratings.</p>
+          <p>Fully functional designated driver app, by leading cross-functional
+          team through Agile methodologies, utilizing Firebase for secure and scalable database storage, and
+          integrating Google Maps for real-time location tracking and route planning.
+          Developed and optimized custom driver matching algorithm, improving response times by 40% and
+          enhancing user satisfaction by matching drivers based on proximity, availability, and ratings.</p>
         </div>
         <div class="grid-item">
           <h1>OQIGA.AI</h1>
