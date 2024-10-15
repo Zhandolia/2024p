@@ -6,6 +6,14 @@ import { faCode, faDatabase, faBug } from "@fortawesome/free-solid-svg-icons";
 
 const experiences = [
     {
+        date: "Jan 2024 - May 2024",
+        company: "Spark! Innovation Fellowship",
+        location: "(Boston, MA)",
+        position: "Software Developer",
+        icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
+        description: "Developed DrivMi, fully functional designated driver app in React Native, utilizing Firebase for secure database storage, and integrating Google Maps for real-time location tracking and route planning."
+    },
+    {
         date: "Apr 2023 - Dec 2023",
         company: "80edays - ChargeHotels",
         location: "(Boston, MA)",
@@ -18,7 +26,7 @@ const experiences = [
         company: "80edays - ChargeHotels",
         location: "(Boston, MA)",
         position: "Software Engineer Intern",
-        icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
+        icon: <FontAwesomeIcon icon={faCode} size="2x" />,
         description: "Collaborated in planning and architecture design of high-profile mobile app for major European rally event, participating in technology stack decisions and initial API development using Node.js and Express."
     },
     {
