@@ -2,48 +2,64 @@ import { VerticalTimeline, VerticalTimelineElement } from "react-vertical-timeli
 import "react-vertical-timeline-component/style.min.css";
 import './Timeline.css'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCode, faDatabase, faBug } from "@fortawesome/free-solid-svg-icons";
+import { faCode, faDatabase, faBug, faCubes, faGlobe, faLaptopCode, faBrain, faDraftingCompass } from "@fortawesome/free-solid-svg-icons";
 
 const experiences = [
     {
+        date: "Jun 2025 - Aug 2025",
+        company: "Fidelity Investments",
+        location: "(Merrimack, NH)",
+        position: "Mobile Engineer Intern",
+        icon: <FontAwesomeIcon icon={faLaptopCode} size="2x" />,
+        description: "At Fidelity HSA, built mobile UI and logic to export checklist tasks. Delivered demos up to VP level."
+    },
+    {
+        date: "Jun 2024 - Aug 2024",
+        company: "80edays - ChargeHotels",
+        location: "(Boston, MA)",
+        position: "Mobile Engineer Intern",
+        icon: <FontAwesomeIcon icon={faLaptopCode} size="2x" />,
+        description: "Contributed to a feature-rich iOS app for Europe’s largest rally, using SwiftUI, UIKit, Node.js, and real-time APIs to enhance booking, vehicle data, and secure user management."
+    },
+    {
         date: "Jan 2024 - May 2024",
-        company: "Spark! Innovation Fellowship",
+        company: "Spark! Innovation Apprenticeship",
         location: "(Boston, MA)",
         position: "Software Developer",
         icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
-        description: "Developed DrivMi, fully functional designated driver app in React Native, utilizing Firebase for secure database storage, and integrating Google Maps for real-time location tracking and route planning."
+        description: "Led development of DrivMi, a designated driver app with real-time tracking, secure Firebase storage, and a custom matching algorithm that cut response times by 40%."
     },
     {
-        date: "Apr 2023 - Dec 2023",
-        company: "80edays - ChargeHotels",
-        location: "(Boston, MA)",
-        position: "iOS Developmer Intern",
-        icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "Led development of feature-rich iOS application in designing and deploying for Europe's largest rally event, using SwiftUl, UlKit, and Combine for a robust and user-friendly interface."
+        date: "Jun 2023 - Aug 2023",
+        company: "nFactorial Incubator",
+        location: "(Almaty, KZ)",
+        position: "AI Software Developer",
+        icon: <FontAwesomeIcon icon={faBrain} size="2x" />,
+        description: "Built MyGapMentor, a GPT-4 platform that helped 50+ students land college offers; secured $50K funding and launched via nFactorial’s bootcamp (2.3% acceptance from 4,500 applicants)."
     },
     {
-        date: "Feb 2023 - Apr 2023",
-        company: "80edays - ChargeHotels",
-        location: "(Boston, MA)",
-        position: "Software Engineer Intern",
-        icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "Collaborated in planning and architecture design of high-profile mobile app for major European rally event, participating in technology stack decisions and initial API development using Node.js and Express."
+        date: "Jun 2022 - Aug 2022",
+        company: "nFactorial Incubator",
+        location: "(Almaty, KZ)",
+        position: "Software Developer",
+        icon: <FontAwesomeIcon icon={faGlobe} size="2x" />,
+        description: "Built and launched Chrome extension geography game used for learning flags and capitals."
     },
     {
-        date: "Aug 2020 - Dec 2021",
+        date: "Jun 2021 - Aug 2021",
         company: "Global Health Research Center of Central Asia",
-        location: "(Almaty, Kazakhstan)",
-        position: "Full Stack Web Development Intern",
+        location: "(Almaty, KZ)",
+        position: "Software Developer Intern",
         icon: <FontAwesomeIcon icon={faCode} size="2x" />,
-        description: "Engineered comprehensive and user-centric website from ground up, employing WordPress coupled with advanced JavaScript, HTML, and CSS to create dynamic and responsive online presence."
+        description: "Developed research website; digitized 400+ studies to make vital health research accessible online."
     },
     {
-        date: "Dec 2020 - Mar 2021",
+        date: "Jun 2020 - Aug 2020",
         company: "Gradcompleks Architectural",
-        location: "(Almaty, Kazakhstan)",
+        location: "(Almaty, KZ)",
         position: "3D Design Intern",
-        icon: <FontAwesomeIcon icon={faBug} size="2x" />,
-        description: "Constructed a detailed 3D representation of Aksai region in Kazakhstan, encompassing an expansive area of 5600km2, derived from satellite imagery and company-provided blueprints."
+        icon: <FontAwesomeIcon icon={faCubes} size="2x" />,
+        description: "Modeled 5,600 km² of Kazakhstani terrain in 3ds Max, using satellite data and blueprints to deliver accurate, realistic 3D representations."
     }
 ]
 
