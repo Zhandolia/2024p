@@ -35,7 +35,7 @@ const experiences = [
         location: "(Almaty, KZ)",
         position: "AI Software Developer",
         icon: <FontAwesomeIcon icon={faBrain} size="2x" />,
-        description: "Built MyGapMentor, a GPT-4 platform that helped 50+ students land college offers; secured $50K funding and launched via nFactorial’s bootcamp (2.3% acceptance from 4,500 applicants)."
+        description: "Built MyGapMentor, GPT-4 platform that helped 50+ students land college offers; secured $50K funding and launched via nFactorial’s bootcamp (2.3% acceptance from 4,500 applicants)."
     },
     {
         date: "Jun 2022 - Aug 2022",
