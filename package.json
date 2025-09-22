@@ -2,6 +2,9 @@
   "homepage": "http://zhanbrown.vercel.app",
   "name": "2024p",
   "version": "0.1.0",
+  "engines": {
+    "node": "22.x"
+  },
   "private": true,
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.4.0",

@@ -9,25 +9,33 @@ const experiences = [
         date: "Jun 2025 - Aug 2025",
         company: "Fidelity Investments",
         location: "(Merrimack, NH)",
-        position: "Mobile Engineer Intern",
+        position: "Mobile Engineer Intern, iOS",
         icon: <FontAwesomeIcon icon={faLaptopCode} size="2x" />,
-        description: "At Fidelity HSA, built mobile UI and logic to export checklist tasks. Delivered demos up to VP level."
+        description: "Optimized content retrieval and rendering pipelines, achieving 70% latency reduction (300ms to 90ms). Delivered demos up to VP level & secured new grad return offer."
     },
     {
-        date: "Jun 2024 - Aug 2024",
-        company: "80edays - ChargeHotels",
+        date: "Jun 2023 - May 2025",
+        company: "80edays - Autonomous Drone Systems Team",
         location: "(Boston, MA)",
-        position: "Mobile Engineer Intern",
+        position: "Machine Learning Engineer, Robotics",
         icon: <FontAwesomeIcon icon={faLaptopCode} size="2x" />,
-        description: "Contributed to a feature-rich iOS app for Europe’s largest rally, using SwiftUI, UIKit, Node.js, and real-time APIs to enhance booking, vehicle data, and secure user management."
+        description: "Contributed to autonomous road assessment system implementing PyTorch-based deep learning models and YOLO object detection, achieving 94% accuracy in road defect identification across drone survey operations."
     },
     {
         date: "Jan 2024 - May 2024",
         company: "Spark! Innovation Apprenticeship",
         location: "(Boston, MA)",
-        position: "Software Developer",
+        position: "Software Developer, Backend & ML",
         icon: <FontAwesomeIcon icon={faDatabase} size="2x" />,
-        description: "Led development of DrivMi, a designated driver app with real-time tracking, secure Firebase storage, and a custom matching algorithm that cut response times by 40%."
+        description: "Developed reinforcement learning route optimization using DQN trained on 20K trip records, achieving 3-minute average trip duration reduction through traffic-aware pathfinding."
+    },
+    {
+        date: "Sep 2023 - Aug 2024",
+        company: "Microsoft for Startups",
+        location: "(Boston, MA)",
+        position: "AI Software Developer",
+        icon: <FontAwesomeIcon icon={faBrain} size="2x" />,
+        description: "Got funded to build with LLM's."
     },
     {
         date: "Jun 2023 - Aug 2023",

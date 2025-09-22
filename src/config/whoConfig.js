@@ -1,8 +1,8 @@
 const whoConfig = {
     strings: [
-        'Senior at Boston University', 
-        'Applied Mathematics Major', 
-        'Software Engineer'
+        'Robotics Engineer', 
+        'AI Developer', 
+        'Applied Maths Student',
     ],
     autoStart: true,
     loop: true,
