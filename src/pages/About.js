@@ -2,14 +2,15 @@ import './About.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { 
   faPython, 
-  faHtml5, 
   faReact, 
   faGit, 
   faSwift,
-  faCss3Alt,
-  faFigma,
   faJava,
-  faJsSquare, } from '@fortawesome/free-brands-svg-icons';
+  faJsSquare,
+  faAws,
+  faDocker,
+  faNode } from '@fortawesome/free-brands-svg-icons';
+import { faRobot, faBrain } from '@fortawesome/free-solid-svg-icons';
 import { useEffect, useState } from 'react';
 
 export default function About() {
@@ -39,17 +40,19 @@ export default function About() {
           </p>
         </div>
         <div className='skills'>
-          <h1>Skills</h1>
+          <h1>Technical Skills</h1>
           <ul>
-            <li><FontAwesomeIcon icon={faReact} beat size='2xl'/></li>
-            <li><FontAwesomeIcon icon={faJsSquare} beat size="2xl"/></li>
-            <li><FontAwesomeIcon icon={faHtml5} beat size='2xl'/></li>
-            <li><FontAwesomeIcon icon={faCss3Alt} beat size="2xl"/></li>
             <li><FontAwesomeIcon icon={faPython} beat size='2xl'/></li>
-            <li><FontAwesomeIcon icon={faJava} beat size="2xl" /></li>
-            <li><FontAwesomeIcon icon={faSwift} beat size="2xl" /></li>
-            <li><FontAwesomeIcon icon={faGit} beat size="2xl" /></li>
-            <li><FontAwesomeIcon icon={faFigma} beat size="2xl" /></li>
+            <li><FontAwesomeIcon icon={faSwift} beat size="2xl"/></li>
+            <li><FontAwesomeIcon icon={faJava} beat size='2xl'/></li>
+            <li><FontAwesomeIcon icon={faJsSquare} beat size="2xl"/></li>
+            <li><FontAwesomeIcon icon={faReact} beat size="2xl"/></li>
+            <li><FontAwesomeIcon icon={faNode} beat size="2xl"/></li>
+            <li><FontAwesomeIcon icon={faGit} beat size="2xl"/></li>
+            <li><FontAwesomeIcon icon={faAws} beat size="2xl"/></li>
+            <li><FontAwesomeIcon icon={faDocker} beat size="2xl"/></li>
+            <li><FontAwesomeIcon icon={faRobot} beat size="2xl"/></li>
+            <li><FontAwesomeIcon icon={faBrain} beat size="2xl"/></li>
           </ul>
         </div>
       </div>
